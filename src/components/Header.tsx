@@ -1,4 +1,4 @@
-import { navlinks } from "@/contants";
+import { navlinks } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 import { FaBars } from "react-icons/fa6";

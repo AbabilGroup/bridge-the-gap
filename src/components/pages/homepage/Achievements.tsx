@@ -3,9 +3,13 @@ import { GrUserWorker } from "react-icons/gr";
 import { BsBuildings } from "react-icons/bs";
 import { TbUsersGroup } from "react-icons/tb";
 
-const Achievements = () => {
+type TAchievementsProps = {
+  bgColor?: string;
+};
+
+const Achievements = ({ bgColor }: TAchievementsProps) => {
   return (
-    <section className="py-20">
+    <section className={`${bgColor} py-20`}>
       <div className="container grid grid-cols-1 gap-x-20 gap-y-20 md:grid-cols-2 lg:grid-cols-4">
         {/* card */}
         <div className="flex flex-col items-center justify-start gap-5">
