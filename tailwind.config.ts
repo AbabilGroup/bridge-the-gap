@@ -42,6 +42,10 @@ export default {
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+          bridge: "#8BC646",
+        },
+        tertiary: {
+          bridge: "#FBAF1B",
         },
         muted: {
           DEFAULT: "hsl(var(--muted))",

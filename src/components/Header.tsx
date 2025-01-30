@@ -5,11 +5,11 @@ import { FaBars } from "react-icons/fa6";
 
 const Header = () => {
   return (
-    <header className="shadow py-3">
+    <header className="py-3 shadow">
       <div className="container flex items-center justify-between">
         <Link href="/">
           <Image
-            className="w-[150px] h-auto"
+            className="h-auto w-[150px]"
             src="/logo.png"
             alt="Bridge The Gap Logo"
             height={65}
@@ -17,11 +17,11 @@ const Header = () => {
           />
         </Link>
 
-        <ul className=" items-center gap-5 hidden lg:flex">
+        <ul className="hidden items-center gap-5 lg:flex">
           {navlinks.map((navlink, i) => (
             <li key={i}>
               <Link
-                className="font-semibold hover:border-b-2 border-b-primary-bridge hover:text-primary-bridge"
+                className="border-b-primary-bridge font-semibold hover:border-b-2 hover:text-primary-bridge"
                 href={navlink.href}
               >
                 {navlink.label}
@@ -30,7 +30,7 @@ const Header = () => {
           ))}
         </ul>
 
-        <FaBars className="lg:hidden text-3xl" />
+        <FaBars className="cursor-pointer text-3xl lg:hidden" />
       </div>
     </header>
   );
