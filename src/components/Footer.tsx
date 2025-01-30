@@ -10,8 +10,10 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
-    <footer className="bg-[#EEEEEE] py-20">
+    <footer className="bg-[#EEEEEE] pt-20">
       <div className="container grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
         {/* column */}
         <div>
@@ -57,7 +59,7 @@ const Footer = () => {
           <ul className="space-y-2 text-sm">
             <li>
               <Link className="hover:underline" href="/">
-                FAQ&apos;S
+                FAQ&apos;s
               </Link>
             </li>
             <li>
@@ -102,7 +104,7 @@ const Footer = () => {
       </div>
 
       <div className="container mt-10">
-        <div className="flex items-center justify-center gap-5 border-b border-t py-3 text-4xl">
+        <div className="flex items-center justify-center gap-5 border-b border-t py-5 text-4xl">
           <Link className="" href="#">
             <FaFacebookF className="cursor-pointer" />
           </Link>
@@ -119,6 +121,10 @@ const Footer = () => {
             <FaInstagram className="cursor-pointer" />
           </Link>
         </div>
+      </div>
+
+      <div className="my-10 text-center">
+        © {currentYear} SMASCO. All rights reserved.
       </div>
     </footer>
   );

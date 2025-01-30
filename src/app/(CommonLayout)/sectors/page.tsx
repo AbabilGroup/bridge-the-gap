@@ -1,8 +1,10 @@
+import SectorsBanner from "@/components/pages/sectors/SectorsBanner";
+
 const SectorsPage = () => {
   return (
-    <div>
-      <h1>This is SectorsPage component</h1>
-    </div>
+    <main>
+      <SectorsBanner />
+    </main>
   );
 };
 
