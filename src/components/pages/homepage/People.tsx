@@ -1,8 +1,9 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const People = () => {
   return (
-    <section className="bg-secondary-bridge py-40">
+    <section className="bg-people-bg bg-cover bg-center bg-no-repeat py-40">
       <div className="container grid grid-cols-1 lg:grid-cols-2">
         <div className="space-y-5">
           <h3 className="text-4xl font-semibold text-white">
@@ -15,7 +16,9 @@ const People = () => {
             fulfil your manpower request, and equip your organization with the
             consolidation it needs.
           </p>
-          <Button className="bg-tertiary-bridge">Let&apos;s connect</Button>
+          <Link className="inline-block" href="/contact">
+            <Button className="bg-tertiary-bridge">Let&apos;s connect</Button>
+          </Link>
         </div>
         <div></div>
       </div>

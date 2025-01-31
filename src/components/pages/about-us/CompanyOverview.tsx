@@ -42,8 +42,8 @@ const CompanyOverview = () => {
         </div>
         <div>
           <Image
-            className="h-auto w-full"
-            src="/company-overview.png"
+            className="h-auto w-full rounded-3xl"
+            src="/about-btg.jpeg"
             alt="Company Overview"
             height={600}
             width={480}

@@ -13,11 +13,11 @@ import {
 
 const Header = () => {
   return (
-    <header className="py-3 shadow">
+    <header className="sticky top-0 z-50 bg-white py-3 shadow">
       <div className="container flex items-center justify-between">
         <Link href="/">
           <Image
-            className="h-auto w-[150px]"
+            className="h-auto w-[100px]"
             src="/logo.png"
             alt="Bridge The Gap Logo"
             height={65}

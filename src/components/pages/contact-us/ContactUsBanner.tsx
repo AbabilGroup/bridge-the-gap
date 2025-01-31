@@ -1,8 +1,8 @@
 const ContactUsBanner = () => {
   return (
-    <section className="flex min-h-[400px] items-center">
+    <section className="flex min-h-[400px] items-center bg-contact-us-banner-bg bg-center bg-cover bg-no-repeat">
       <div className="container h-full">
-        <h1 className="text-4xl font-bold">Contact</h1>
+        <h1 className="text-4xl font-bold text-white">Contact</h1>
       </div>
     </section>
   );

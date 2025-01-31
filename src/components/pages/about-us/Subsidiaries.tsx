@@ -30,7 +30,7 @@ const Subsidiaries = () => {
           <div className="card">
             <div className="card__content relative p-20 text-center font-bold transition-transform duration-1000">
               <div className="card__front absolute bottom-0 left-0 right-0 top-0 flex items-center justify-center rounded-xl bg-white p-8">
-                <h6>Corporate Venture Capital Company</h6>
+                <h6>Parcel Logistic Solutions</h6>
               </div>
               <div className="card__back absolute bottom-0 left-0 right-0 top-0 flex items-center justify-center rounded-xl bg-[#494949] p-8 text-white">
                 <p>
@@ -44,7 +44,7 @@ const Subsidiaries = () => {
           <div className="card">
             <div className="card__content relative p-20 text-center font-bold transition-transform duration-1000">
               <div className="card__front absolute bottom-0 left-0 right-0 top-0 flex items-center justify-center rounded-xl bg-white p-8">
-                <h6>Corporate Venture Capital Company</h6>
+                <h6>A Better Customer Experience</h6>
               </div>
               <div className="card__back absolute bottom-0 left-0 right-0 top-0 flex items-center justify-center rounded-xl bg-[#494949] p-8 text-white">
                 <p>
@@ -58,7 +58,7 @@ const Subsidiaries = () => {
           <div className="card">
             <div className="card__content relative p-20 text-center font-bold transition-transform duration-1000">
               <div className="card__front absolute bottom-0 left-0 right-0 top-0 flex items-center justify-center rounded-xl bg-white p-8">
-                <h6>Corporate Venture Capital Company</h6>
+                <h6>Innovative and Integrated Home Solutions</h6>
               </div>
               <div className="card__back absolute bottom-0 left-0 right-0 top-0 flex items-center justify-center rounded-xl bg-[#494949] p-8 text-white">
                 <p>

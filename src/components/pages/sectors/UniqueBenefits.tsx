@@ -17,7 +17,7 @@ const UniqueBenefits = () => {
 
         <div className="mt-10 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
           {/* card  */}
-          <div className="space-y-4 rounded-xl border p-5 shadow">
+          <div className="space-y-4 rounded-xl border p-5">
             <div className="mx-auto flex size-[100px] items-center justify-center rounded-full bg-[#F9FCF5]">
               <BsPassport className="text-5xl" />
             </div>
@@ -28,7 +28,7 @@ const UniqueBenefits = () => {
             </p>
           </div>
           {/* card  */}
-          <div className="space-y-4 rounded-xl border p-5 shadow">
+          <div className="space-y-4 rounded-xl border p-5">
             <div className="mx-auto flex size-[100px] items-center justify-center rounded-full bg-[#F9FCF5]">
               <FaUsers className="text-5xl" />
             </div>
@@ -38,7 +38,7 @@ const UniqueBenefits = () => {
             </p>
           </div>
           {/* card  */}
-          <div className="space-y-4 rounded-xl border p-5 shadow">
+          <div className="space-y-4 rounded-xl border p-5">
             <div className="mx-auto flex size-[100px] items-center justify-center rounded-full bg-[#F9FCF5]">
               <MdOutlinePolicy className="text-5xl" />
             </div>
@@ -48,7 +48,7 @@ const UniqueBenefits = () => {
             </p>
           </div>
           {/* card  */}
-          <div className="space-y-4 rounded-xl border p-5 shadow">
+          <div className="space-y-4 rounded-xl border p-5">
             <div className="mx-auto flex size-[100px] items-center justify-center rounded-full bg-[#F9FCF5]">
               <FaCheckToSlot className="text-5xl" />
             </div>
@@ -59,7 +59,7 @@ const UniqueBenefits = () => {
             </p>
           </div>
           {/* card  */}
-          <div className="space-y-4 rounded-xl border p-5 shadow">
+          <div className="space-y-4 rounded-xl border p-5">
             <div className="mx-auto flex size-[100px] items-center justify-center rounded-full bg-[#F9FCF5]">
               <IoDocumentTextOutline className="text-5xl" />
             </div>
@@ -70,7 +70,7 @@ const UniqueBenefits = () => {
             </p>
           </div>
           {/* card  */}
-          <div className="space-y-4 rounded-xl border p-5 shadow">
+          <div className="space-y-4 rounded-xl border p-5">
             <div className="mx-auto flex size-[100px] items-center justify-center rounded-full bg-[#F9FCF5]">
               <TfiHeadphoneAlt className="text-5xl" />
             </div>

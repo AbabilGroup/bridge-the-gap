@@ -14,6 +14,13 @@ export default {
       padding: "20px",
     },
     extend: {
+      backgroundImage: {
+        "hero-bg": 'url("/Hero.jpg")',
+        "input-output-bg": 'url("/input-output.jpg")',
+        "people-bg": 'url("/people.jpg")',
+        "about-us-banner-bg": 'url("/about-us.jpg")',
+        "contact-us-banner-bg": 'url("/contact-us.jpg")',
+      },
       animation: {
         zoom: "zoom 3s infinite",
       },

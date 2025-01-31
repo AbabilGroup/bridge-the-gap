@@ -13,7 +13,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#EEEEEE] pt-20">
+    <footer className="mt-auto bg-[#EEEEEE] pt-20">
       <div className="container grid grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-4">
         {/* column */}
         <div>
@@ -124,7 +124,7 @@ const Footer = () => {
       </div>
 
       <div className="my-10 text-center">
-        © {currentYear} SMASCO. All rights reserved.
+        © {currentYear} Bridge The Gap. All rights reserved.
       </div>
     </footer>
   );
