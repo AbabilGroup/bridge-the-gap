@@ -11,14 +11,7 @@ export const navlinks = [
     label: "Sectors",
     href: "/sectors",
   },
-  {
-    label: "News",
-    href: "/news",
-  },
-  {
-    label: "Investors",
-    href: "/investors",
-  },
+
   {
     label: "Contact",
     href: "/contact",
@@ -55,5 +48,111 @@ export const sectors = [
     title: "Oil & Gas",
     description:
       "Stay on top of e-commerce’s global growth and staff your logistics business with qualified workers who can accelerate your operations.",
+  },
+];
+
+export const territories = [
+  {
+    name: "Central Region",
+    value: "Central Region",
+  },
+  {
+    name: "Western Region",
+    value: "Western Region",
+  },
+  {
+    name: "Eastern Region",
+    value: "Eastern Region",
+  },
+  {
+    name: "Southern Region",
+    value: "Southern Region",
+  },
+  {
+    name: "Central Region",
+    value: "Central Region",
+  },
+  {
+    name: "North Region",
+    value: "North Region",
+  },
+];
+
+export const contactFormSectors = [
+  {
+    name: "Medical Sector",
+    value: "Medical Sector",
+  },
+  {
+    name: "Maintenance and Operations",
+    value: "Maintenance and Operations",
+  },
+  {
+    name: "Private Corporations",
+    value: "Private Corporations",
+  },
+  {
+    name: "Food Markets",
+    value: "Food Markets",
+  },
+  {
+    name: "Educational Sector",
+    value: "Educational Sector",
+  },
+  {
+    name: "Hospitality Sector",
+    value: "Hospitality Sector",
+  },
+  {
+    name: "Services Sector",
+    value: "Services Sector",
+  },
+  {
+    name: "Logistics",
+    value: "Logistics",
+  },
+  {
+    name: "Industrial",
+    value: "Industrial",
+  },
+  {
+    name: "Projects and Corporations",
+    value: "Projects and Corporations",
+  },
+  {
+    name: "Gas and Energy",
+    value: "Gas and Energy",
+  },
+  {
+    name: "Banking and Finance",
+    value: "Banking and Finance",
+  },
+  {
+    name: "Restaurants",
+    value: "Restaurants",
+  },
+  {
+    name: "Agriculture",
+    value: "Agriculture",
+  },
+  {
+    name: "Construction and Building",
+    value: "Construction and Building",
+  },
+  {
+    name: "HORECA",
+    value: "HORECA",
+  },
+  {
+    name: "Tourism",
+    value: "Tourism",
+  },
+  {
+    name: "Commercial Markets",
+    value: "Commercial Markets",
+  },
+  {
+    name: "General",
+    value: "General",
   },
 ];

@@ -12,30 +12,30 @@ const Achievements = ({ bgColor }: TAchievementsProps) => {
     <section className={`${bgColor} py-20`}>
       <div className="container grid grid-cols-1 gap-x-20 gap-y-20 md:grid-cols-2 lg:grid-cols-4">
         {/* card */}
-        <div className="flex flex-col items-center justify-start gap-5">
+        <div className="flex flex-col items-center justify-start gap-3">
           <GoClock className="text-5xl text-primary-bridge" />
 
-          <h4 className="text-xl font-bold text-tertiary-bridge">
+          <h4 className="text-2xl font-bold text-tertiary-bridge">
             <span className="text-primary-bridge">+</span>1.5B
           </h4>
 
           <p className="text-center font-medium">Working Hours</p>
         </div>
         {/* card */}
-        <div className="flex flex-col items-center justify-start gap-5">
+        <div className="flex flex-col items-center justify-start gap-3">
           <GrUserWorker className="text-5xl text-primary-bridge" />
 
-          <h4 className="text-xl font-bold text-tertiary-bridge">
+          <h4 className="text-2xl font-bold text-tertiary-bridge">
             <span className="text-primary-bridge">+</span>160 K
           </h4>
 
           <p className="text-center font-medium">Deployed Workers</p>
         </div>
         {/* card */}
-        <div className="flex flex-col items-center justify-start gap-5">
+        <div className="flex flex-col items-center justify-start gap-3">
           <BsBuildings className="text-5xl text-primary-bridge" />
 
-          <h4 className="text-xl font-bold text-tertiary-bridge">
+          <h4 className="text-2xl font-bold text-tertiary-bridge">
             100% coverage
           </h4>
 
@@ -44,10 +44,10 @@ const Achievements = ({ bgColor }: TAchievementsProps) => {
           </p>
         </div>
         {/* card */}
-        <div className="flex flex-col items-center justify-start gap-5">
+        <div className="flex flex-col items-center justify-start gap-3">
           <TbUsersGroup className="text-5xl text-primary-bridge" />
 
-          <h4 className="text-xl font-bold text-tertiary-bridge">
+          <h4 className="text-2xl font-bold text-tertiary-bridge">
             <span className="text-primary-bridge">+</span>4K
           </h4>
 

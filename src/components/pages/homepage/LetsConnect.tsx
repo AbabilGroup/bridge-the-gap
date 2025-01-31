@@ -1,8 +1,9 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const LetsConnect = () => {
   return (
-    <section className="bg-secondary-bridge py-20">
+    <section className="py-20">
       <div className="container space-y-3">
         <h2 className="text-center text-4xl font-semibold">
           Let&apos;s Connect
@@ -12,7 +13,11 @@ const LetsConnect = () => {
         </p>
 
         <div className="flex items-center justify-center">
-          <Button className="bg-white text-black">Let&apos;s Connect</Button>
+          <Link href="/contact">
+            <Button className="bg-tertiary-bridge text-white">
+              Let&apos;s Connect
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

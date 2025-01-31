@@ -14,7 +14,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-[#EEEEEE] pt-20">
-      <div className="container grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
+      <div className="container grid grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-4">
         {/* column */}
         <div>
           <Link href="/">

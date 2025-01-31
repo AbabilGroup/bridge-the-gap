@@ -2,6 +2,14 @@ import { navlinks } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 import { FaBars } from "react-icons/fa6";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 
 const Header = () => {
   return (
@@ -30,7 +38,22 @@ const Header = () => {
           ))}
         </ul>
 
-        <FaBars className="cursor-pointer text-3xl lg:hidden" />
+        <div className="lg:hidden">
+          <Sheet>
+            <SheetTrigger>
+              <FaBars className="cursor-pointer text-3xl" />
+            </SheetTrigger>
+            <SheetContent>
+              <SheetHeader>
+                <SheetTitle>Are you absolutely sure?</SheetTitle>
+                <SheetDescription>
+                  This action cannot be undone. This will permanently delete
+                  your account and remove your data from our servers.
+                </SheetDescription>
+              </SheetHeader>
+            </SheetContent>
+          </Sheet>
+        </div>
       </div>
     </header>
   );
