@@ -20,6 +20,7 @@ export default {
         "people-bg": 'url("/people.jpg")',
         "about-us-banner-bg": 'url("/about-us.jpg")',
         "contact-us-banner-bg": 'url("/contact-us.jpg")',
+        "constructions-banner-bg": 'url("/construction-banner.jpg")',
       },
       animation: {
         zoom: "zoom 3s infinite",
