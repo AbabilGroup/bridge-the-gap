@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const InputOutput = () => {
   return (
-    <section className="bg-input-output-bg bg-cover bg-no-repeat bg-center py-40">
+    <section className="bg-input-output-bg bg-cover bg-center bg-no-repeat py-40">
       <div className="container grid grid-cols-1 lg:grid-cols-2">
         <div className="space-y-5">
           <h3 className="text-4xl font-semibold text-white">
