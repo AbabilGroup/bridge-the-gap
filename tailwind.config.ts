@@ -21,6 +21,7 @@ export default {
         "about-us-banner-bg": 'url("/about-us.jpg")',
         "contact-us-banner-bg": 'url("/contact-us.jpg")',
         "constructions-banner-bg": 'url("/construction-banner.jpg")',
+        "healthcare-banner-bg": 'url("/healthcare-banner.jpg")',
       },
       animation: {
         zoom: "zoom 3s infinite",
