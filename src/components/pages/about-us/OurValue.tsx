@@ -7,7 +7,7 @@ const OurValue = () => {
       <div className="container grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
         <div className="space-y-3 md:col-span-2 lg:col-span-1">
           <h6 className="font-semibold text-primary-bridge">Our Value</h6>
-          <h2 className="text-3xl font-semibold">
+          <h2 className="text-4xl font-semibold">
             True World class manpower Service
           </h2>
           <p className="text-sm">

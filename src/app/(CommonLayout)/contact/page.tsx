@@ -126,7 +126,7 @@ const ContactPage = () => {
 
               <div>
                 <Label>Your Message*</Label>
-                <Textarea placeholder="Your Message" />
+                <Textarea placeholder="Your Message" rows={5} />
               </div>
 
               <Button className="bg-secondary-bridge">Send Message</Button>
