@@ -60,7 +60,10 @@ const ContactPage = () => {
                 <p className="text-sm">
                   <strong>Head Office</strong>
                 </p>
-                <p className="text-sm">Dhaka, Bangladesh</p>
+                <p className="text-sm">
+                  Kempinski, The Pearl, Doha, Qatar. P.O. Box 12345, Doha,
+                  Qatar.
+                </p>
               </div>
             </div>
           </div>

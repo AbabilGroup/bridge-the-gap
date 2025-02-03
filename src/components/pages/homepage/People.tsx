@@ -10,10 +10,10 @@ const People = () => {
             People Are All About Communications
           </h3>
           <p className="text-white">
-            If we are talking about manpower, we are talking about the need for
+            When we talk about manpower, we’re talking about the need for
             instant response and effective communication. Let our professional
             account managers handle it for you. They will make recommendations,
-            fulfil your manpower request, and equip your organization with the
+            fulfill your manpower requests, and equip your organization with the
             consolidation it needs.
           </p>
           <Link className="inline-block" href="/contact">

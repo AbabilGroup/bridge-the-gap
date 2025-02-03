@@ -10,12 +10,12 @@ const InputOutput = () => {
             Inputs Shape the Outputs
           </h3>
           <p className="text-white">
-            For ten years and more, SMASCO has served all the sectors in the
-            Kingdom by shaping their inputs in a way that reshaped their outputs
-            with a much better performance. Discuss your company’s requirements
-            with us, And we will provide you with advice you need to hear
-            regarding the professional reinforcements to assist with the growth
-            of your business.
+            With more than ten years of experience, Bridge the Gap has
+            effectively supported various sectors in Qatar by transforming their
+            contributions into enhanced results and improved performance. Share
+            your business needs with us, and we will offer the expert guidance
+            necessary to help you secure the professional resources required for
+            your company&apos;s growth.
           </p>
           <Link className="inline-block" href="/about">
             <Button className="bg-tertiary-bridge">More About Us</Button>

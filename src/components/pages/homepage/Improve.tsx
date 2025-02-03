@@ -6,11 +6,12 @@ const Improve = () => {
           Improve Your Business Performance
         </h2>
         <p className="mx-auto max-w-[580px] text-center">
-          A focus on manpower solutions and decades of experience, SMASCO has
-          enhanced the performance and the growth of many Saudi organizations by
-          equipping them with professionals and qualified stable manpower.
-          Explore what a good selection of professionals can do for your
-          business growth.
+          At Bridge the Gap, we specialize in delivering tailored manpower
+          solutions backed by decades of expertise. We have significantly
+          boosted the performance and growth of numerous Qatari organizations by
+          providing them with skilled, dependable professionals. Discover how a
+          carefully curated team of experts can drive your business to new
+          heights.
         </p>
       </div>
     </section>

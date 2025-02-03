@@ -5,10 +5,10 @@ const Subsidiaries = () => {
         <h2 className="text-center text-4xl font-semibold">Subsidiaries</h2>
 
         <p className="mx-auto max-w-[950px] text-center text-lg">
-          Detect the staffing service type you need and find your favorite team.
-          SMASCO covers their required documents, stays, insurance, salaries,
-          and qualifying training when required. Pick up the formula that suits
-          your business way of success.
+          Identify the staffing service type you need and find your ideal team.
+          Bridge The Gap covers all necessary documentation, accommodations,
+          insurance, salaries, and qualifying training when required. Choose the
+          formula that aligns with your business&apos;s path to success.
         </p>
 
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
@@ -20,8 +20,8 @@ const Subsidiaries = () => {
               </div>
               <div className="card__back absolute bottom-0 left-0 right-0 top-0 flex items-center justify-center rounded-xl bg-[#494949] p-8 text-white">
                 <p>
-                  Saneem is a Saudi company that invests in innovative
-                  technology solutions as well as promising startup firms.
+                  ADGS is a Qatar-based company that invests in innovative
+                  technology solutions and promising startup firms.
                 </p>
               </div>
             </div>
@@ -34,8 +34,9 @@ const Subsidiaries = () => {
               </div>
               <div className="card__back absolute bottom-0 left-0 right-0 top-0 flex items-center justify-center rounded-xl bg-[#494949] p-8 text-white">
                 <p>
-                  Saneem is a Saudi company that invests in innovative
-                  technology solutions as well as promising startup firms.
+                  Qatar Logistic Services Company (QLSC) is a logistics company
+                  that provides innovative solutions to the supply chain for all
+                  parcel sectors.
                 </p>
               </div>
             </div>
@@ -48,8 +49,9 @@ const Subsidiaries = () => {
               </div>
               <div className="card__back absolute bottom-0 left-0 right-0 top-0 flex items-center justify-center rounded-xl bg-[#494949] p-8 text-white">
                 <p>
-                  Saneem is a Saudi company that invests in innovative
-                  technology solutions as well as promising startup firms.
+                  Terhab is a Qatari CX outsourcing company providing end-to-end
+                  CX solutions by designing and operating CX moments before,
+                  during, and after-sales.
                 </p>
               </div>
             </div>
@@ -62,8 +64,8 @@ const Subsidiaries = () => {
               </div>
               <div className="card__back absolute bottom-0 left-0 right-0 top-0 flex items-center justify-center rounded-xl bg-[#494949] p-8 text-white">
                 <p>
-                  Saneem is a Saudi company that invests in innovative
-                  technology solutions as well as promising startup firms.
+                  Raha is a home workers provider and integrated solutions for
+                  the home services sector.
                 </p>
               </div>
             </div>

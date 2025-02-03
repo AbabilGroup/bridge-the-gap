@@ -7,11 +7,10 @@ const Overview = () => {
       <div className="container space-y-4">
         <h2 className="text-center text-4xl font-bold">Overview</h2>
         <p className="mx-auto max-w-[720px] text-center text-lg">
-          Over the course of more than a decade in the field of workforce,
-          SMASCO has gained experience in every field and industry in the
-          Kingdom. Our services cover all industries and fields, we even add
-          features to the basic services to meet the manpower needs of your
-          company.
+          For more than a decade in the field of workforce solutions, Bridge The
+          Gap has gained experience in every industry in Qatar. Our services
+          cover all sectors, and we even add features to the basic services to
+          meet the manpower needs of your company.
         </p>
 
         <div className="flex items-center justify-center">

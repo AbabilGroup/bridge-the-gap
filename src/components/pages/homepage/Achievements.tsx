@@ -40,7 +40,7 @@ const Achievements = ({ bgColor }: TAchievementsProps) => {
           </h4>
 
           <p className="text-center font-medium">
-            We serve every single region and industry in Saudi Arabia.
+            We serve every single region and industry in Qatar
           </p>
         </div>
         {/* card */}
@@ -52,7 +52,7 @@ const Achievements = ({ bgColor }: TAchievementsProps) => {
           </h4>
 
           <p className="text-center font-medium">
-            Business Clients All Over The Kingdom
+            Business Clients All Over Qatar
           </p>
         </div>
       </div>

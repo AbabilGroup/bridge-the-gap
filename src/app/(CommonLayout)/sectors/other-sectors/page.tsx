@@ -1,8 +1,11 @@
+import OtherSectorsBanner from "@/components/pages/other-sectors/OtherSectorsBanner";
+
 const OtherSectorsPage = () => {
   return (
-    <div>
-      <h1>This is page component</h1>
-    </div>
+    <main>
+      <OtherSectorsBanner />
+      
+    </main>
   );
 };
 

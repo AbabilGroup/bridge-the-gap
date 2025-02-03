@@ -7,10 +7,11 @@ const OurRange = () => {
         </h3>
 
         <p className="mx-auto max-w-[700px] text-center text-lg">
-          SMASCO covers all industries and fields. Companies that require heavy
-          qualifying training for their staff, companies that require a very
-          long-term contract for their workers, and even companies that need a
-          team of a limited professionals for quite a short-term contract.
+          Bridge The Gap covers all industries and fields. Companies that
+          require heavy qualifying training for their staff, companies that
+          require a very long-term contract for their workers, and even
+          companies that need a team of limited professionals for quite a
+          short-term contract.
         </p>
       </div>
     </section>

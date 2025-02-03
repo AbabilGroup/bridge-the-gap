@@ -8,13 +8,14 @@ const OurValue = () => {
         <div className="space-y-3 md:col-span-2 lg:col-span-1">
           <h6 className="font-semibold text-primary-bridge">Our Value</h6>
           <h2 className="text-4xl font-semibold">
-            True World class manpower Service
+            World-Class Manpower Services
           </h2>
           <p className="text-sm">
-            As we have realized the huge matter of providing perfossinal
-            services, and how complicated it is for Saudi organizations to find
-            professionals fully covered legally; the SMASCO team has taken the
-            pledge to carry this on our shoulders with the best we have.
+            Recognizing the significant challenge of providing professional
+            services, and the complexities faced by Qatari organizations in
+            sourcing legally compliant professionals, the Bridge the Gap team
+            has committed to shouldering this responsibility with our utmost
+            dedication.
           </p>
         </div>
         <div className="flex flex-col items-center justify-start gap-4 rounded-xl bg-white p-5">
@@ -22,9 +23,9 @@ const OurValue = () => {
 
           <h6 className="font-semibold text-primary-bridge">Vision</h6>
           <p className="text-center text-sm">
-            To be the first direction for organizations in the Saudi Kingdom as
-            a manpower company, by adding a truly valuable selection of
-            qualified people … to be the first, whole and heartedly.
+            Bridge the Gap aims to be the leading manpower service provider in
+            Qatar, ensuring that businesses have access to skilled talent while
+            adhering to local regulations and standards.
           </p>
         </div>
         <div className="flex flex-col items-center justify-start gap-4 rounded-xl bg-white p-5">
@@ -32,11 +33,11 @@ const OurValue = () => {
 
           <h6 className="font-semibold text-primary-bridge">Mission</h6>
           <p className="text-center text-sm">
-            Our mission is to save you miles to walk and take the headache of
-            searching for qualified manpower, secure your business with legally
-            covered professionals, and get you out of confusion with our
-            consulting and support to promote your business performance and
-            growth.
+            At Bridge The Gap, our mission is to save you from the hassle of
+            searching for qualified manpower. We provide legally covered
+            professionals to secure your business and simplify your operations
+            with expert consulting and support aimed at enhancing your business
+            performance and growth.
           </p>
         </div>
       </div>

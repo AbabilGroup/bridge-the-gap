@@ -22,6 +22,10 @@ export default {
         "contact-us-banner-bg": 'url("/contact-us.jpg")',
         "constructions-banner-bg": 'url("/construction-banner.jpg")',
         "healthcare-banner-bg": 'url("/healthcare-banner.jpg")',
+        "hospitality-banner-bg": 'url("/hospitality-banner.jpg")',
+        "logistics-banner-bg": 'url("/logistics-banner.jpg")',
+        "oil-gas-banner-bg": 'url("/oil-gas-banner.jpg")',
+        "other-sector-banner-bg": 'url("/other-sector-banner.jpg")',
       },
       animation: {
         zoom: "zoom 3s infinite",

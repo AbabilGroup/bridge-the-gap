@@ -78,7 +78,9 @@ const Footer = () => {
                 className="flex items-center gap-2 hover:underline"
                 href="tel:+8801234567890"
               >
-                <FaPhoneAlt />
+                <div>
+                  <FaPhoneAlt />
+                </div>
                 +880 1234 567890
               </Link>
             </li>
@@ -87,7 +89,10 @@ const Footer = () => {
                 className="flex items-center gap-2 hover:underline"
                 href="mailto:info@bridgethegap.com"
               >
-                <FaEnvelope /> info@bridgethegap.com
+                <div>
+                  <FaEnvelope />
+                </div>{" "}
+                info@bridgethegap.com
               </Link>
             </li>
             <li>
@@ -95,8 +100,10 @@ const Footer = () => {
                 className="flex items-center gap-2 hover:underline"
                 href="mailto:info@bridgethegap.com"
               >
-                <FaMapMarkerAlt />
-                Dhaka, Bangladesh
+                <div>
+                  <FaMapMarkerAlt />
+                </div>
+                Kempinski, The Pearl, Doha, Qatar. P.O. Box 12345, Doha, Qatar.
               </Link>
             </li>
           </ul>

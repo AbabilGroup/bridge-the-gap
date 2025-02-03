@@ -1,6 +1,5 @@
 import ConstructionsBanner from "@/components/pages/constructions/ConstructionsBanner";
 import ConstructionSolutions from "@/components/pages/constructions/ConstructionSolutions";
-import ConstructionsPrivileges from "@/components/pages/constructions/ConstructionsPrivileges";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
@@ -16,16 +15,14 @@ const ConstructionsPage = () => {
           </h2>
           <div className="mx-auto max-w-[750px] space-y-5">
             <p className="text-lg">
-              No procrastination regarding the time for handing over the units.
-              No manipulation of the qualities or quantities of workers. No
-              exhausting negotiations about the rate.
+              No delays in handing over units. No compromises on the quality or
+              quantity of workers. No exhausting negotiations about rates.
             </p>
             <p className="text-lg">
-              Construction companies constantly need workers for short-term
-              hiring, and meeting deadlines seems impossible, but SMASCO can
-              provide you with trained, experienced, skilled, and time-scheduled
-              construction workers that you can depend on to complete your
-              mission on schedule.
+              Construction companies often need workers for short-term hiring,
+              and meeting deadlines can seem impossible. Bridge The Gap provides
+              trained, experienced, and time-scheduled construction workers you
+              can depend on to complete your mission on schedule.
             </p>
           </div>
         </div>
@@ -50,7 +47,7 @@ const ConstructionsPage = () => {
 
       <ConstructionSolutions />
 
-      <ConstructionsPrivileges />
+      {/* <ConstructionsPrivileges /> */}
 
       <section className="bg-[#FFFEF5] py-20">
         <div className="container space-y-5">

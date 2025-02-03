@@ -1,8 +1,11 @@
+import LogisticsBanner from "@/components/pages/logistics/LogisticsBanner";
+
 const LogisticsPage = () => {
   return (
-    <div>
+    <main>
+      <LogisticsBanner />
       <h1>This is LosgisticsPage component</h1>
-    </div>
+    </main>
   );
 };
 
