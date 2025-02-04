@@ -79,6 +79,7 @@
 .card__front,
 .card__back {
   backface-visibility: hidden;
+  
 }
 .card__back {
   transform: rotateY(0.5turn);

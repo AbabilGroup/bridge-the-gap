@@ -14,7 +14,7 @@ const Footer = () => {
 
   return (
     <footer className="mt-auto bg-[#EEEEEE] pt-20">
-      <div className="container grid grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-4">
+      <div className="container grid grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
         {/* column */}
         <div>
           <Link href="/">
@@ -53,22 +53,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        {/* column */}
-        <div>
-          <h5 className="mb-5 text-xl font-semibold">Help</h5>
-          <ul className="space-y-2 text-sm">
-            <li>
-              <Link className="hover:underline" href="/">
-                FAQ&apos;s
-              </Link>
-            </li>
-            <li>
-              <Link className="hover:underline" href="/privacy-policy">
-                Privacy Policy
-              </Link>
-            </li>
-          </ul>
-        </div>
+
         {/* column */}
         <div>
           <h5 className="mb-5 text-xl font-semibold">Contact Us</h5>
