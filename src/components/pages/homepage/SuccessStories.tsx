@@ -21,36 +21,43 @@ const SuccessStories = () => {
         <div className="flex w-full flex-col items-center gap-10 lg:flex-row">
           <div>
             <Image
-              className="h-auto w-[500px]"
-              src="/success-company-logo.png"
+              className=""
+              src="/al-bandary.webp"
               alt="Logo"
-              height={200}
-              width={160}
+              height={300}
+              width={300}
             />
           </div>
           <div className="space-y-3 text-sm">
-            <h6 className="font-bold">SMASCO Success Story:</h6>
-            <p>
-              Started business with a supply in April 2018 and increased the
-              number of workers by 800%, all of them are currently active.
-              Monthly revenue increased by 1000% from April 2018 to October
-              2022.
-            </p>
-            <ul className="list-disc pl-5">
-              <li>Managed to deploy skilled and semi-skilled workers.</li>
-              <li>Became one of our most satisfied clients.</li>
-            </ul>
-            <p>Highest worker satisfaction and a low worker turnover rate.</p>
-            <h6 className="font-bold">BAYTUR Success Story:</h6>
-            <ul className="list-disc pl-5">
+            <h6 className="font-bold">Bridge The Gap Success Story:</h6>
+
+            <ul className="list-disc space-y-2 pl-5">
               <li>
-                Completed the project of Renovating King Abdullah University of
-                Science and Technology (KAUST) and secured a new construction
-                project in the same place.
+                We began supplying agricultural workers in January 2019 and have
+                since grown by 450% in terms of the number of workers.
               </li>
               <li>
-                Awarding new projects in Neom and King Abdullah Financial
-                District, Riyadh.
+                Became a strategic partner of Qatar Agricultural Company (QAC)
+                by providing excellent service.
+              </li>
+              <li>
+                Achieved the highest worker satisfaction and a low worker
+                turnover rate.
+              </li>
+            </ul>
+            <h6 className="font-bold">Al Bandary Engineering Success Story:</h6>
+
+            <ul className="list-disc space-y-2 pl-5">
+              <li>
+                Completed the renovation project of Qatar University and secured
+                a new construction project in the same location.
+              </li>
+              <li>
+                Awarded new projects in Lusail City and Msheireb Downtown Doha.
+              </li>
+              <li>
+                Expanded operations to include The Pearl, Doha, and other key
+                areas.
               </li>
             </ul>
           </div>
@@ -63,36 +70,42 @@ const SuccessStories = () => {
         <div className="flex w-full flex-col items-center gap-10 lg:flex-row">
           <div>
             <Image
-              className="h-auto w-[500px]"
-              src="/success-company-logo.png"
+              className=""
+              src="/al_rawdah_logo.png"
               alt="Logo"
-              height={200}
-              width={160}
+              height={300}
+              width={300}
             />
           </div>
           <div className="space-y-3 text-sm">
-            <h6 className="font-bold">SMASCO Success Story:</h6>
-            <p>
-              Started business with a supply in April 2018 and increased the
-              number of workers by 800%, all of them are currently active.
-              Monthly revenue increased by 1000% from April 2018 to October
-              2022.
-            </p>
-            <ul className="list-disc pl-5">
-              <li>Managed to deploy skilled and semi-skilled workers.</li>
-              <li>Became one of our most satisfied clients.</li>
-            </ul>
-            <p>Highest worker satisfaction and a low worker turnover rate.</p>
-            <h6 className="font-bold">BAYTUR Success Story:</h6>
-            <ul className="list-disc pl-5">
+            <h6 className="font-bold">Bridge The Gap Success Story:</h6>
+
+            <ul className="list-disc space-y-2 pl-5">
               <li>
-                Completed the project of Renovating King Abdullah University of
-                Science and Technology (KAUST) and secured a new construction
-                project in the same place.
+                The business started with a supply of skilled workers in
+                December 2013 and has grown into one of our strategic partners,
+                reaching 1000+ active workers today, generating millions in
+                revenue each month.
               </li>
               <li>
-                Awarding new projects in Neom and King Abdullah Financial
-                District, Riyadh.
+                Equal satisfaction levels from clients and workers, resulting in
+                one of the lowest turnovers in the industry.
+              </li>
+            </ul>
+            <h6 className="font-bold">Al RAWDA Farm Success Story:</h6>
+
+            <ul className="list-disc space-y-2 pl-5">
+              <li>
+                Al RAWDA Poultry Farms now occupies a leading position among the
+                giant projects in the Middle East.
+              </li>
+              <li>
+                Al RAWDA Poultry Farms has grown to be one of the largest
+                integrated poultry projects in the world.
+              </li>
+              <li>
+                Opened multiple new poultry farms and processing units in Al
+                Khor, Al Wakrah, and other regions.
               </li>
             </ul>
           </div>
@@ -105,37 +118,66 @@ const SuccessStories = () => {
         <div className="flex w-full flex-col items-center gap-10 lg:flex-row">
           <div>
             <Image
-              className="h-auto w-[500px]"
-              src="/success-company-logo.png"
+              className=""
+              src="/al-maha.png"
               alt="Logo"
-              height={200}
-              width={160}
+              height={300}
+              width={300}
             />
           </div>
           <div className="space-y-3 text-sm">
-            <h6 className="font-bold">SMASCO Success Story:</h6>
-            <p>
-              Started business with a supply in April 2018 and increased the
-              number of workers by 800%, all of them are currently active.
-              Monthly revenue increased by 1000% from April 2018 to October
-              2022.
-            </p>
-            <ul className="list-disc pl-5">
-              <li>Managed to deploy skilled and semi-skilled workers.</li>
-              <li>Became one of our most satisfied clients.</li>
+            <h6 className="font-bold">Bridge The Gap Success Story:</h6>
+
+            <ul className="list-disc space-y-2 pl-5">
+              <li>
+                In March 2018, we began supplying seasonal workers and have
+                since grown by 500% in active workers.
+              </li>
+              <li>
+                Became the permanent manpower supplier for seasonal work at
+                Qatar Harvest.
+              </li>
             </ul>
-            <p>Highest worker satisfaction and a low worker turnover rate.</p>
-            <h6 className="font-bold">BAYTUR Success Story:</h6>
-            <ul className="list-disc pl-5">
+            <h6 className="font-bold">Al Maha Success Story:</h6>
+
+            <ul className="list-disc space-y-2 pl-5">
+              <li>Al Maha&apos;s expansion is well-known across the region.</li>
+            </ul>
+          </div>
+        </div>
+      ),
+    },
+    {
+      id: 4,
+      content: (
+        <div className="flex w-full flex-col items-center gap-10 lg:flex-row">
+          <div>
+            <Image
+              className=""
+              src="/qac.jpeg"
+              alt="Logo"
+              height={300}
+              width={300}
+            />
+          </div>
+          <div className="space-y-3 text-sm">
+            <h6 className="font-bold">Bridge The Gap Success Story:</h6>
+
+            <ul className="list-disc space-y-2 pl-5">
               <li>
-                Completed the project of Renovating King Abdullah University of
-                Science and Technology (KAUST) and secured a new construction
-                project in the same place.
+                We began supplying agricultural workers in January 2019 and have
+                since grown by 450% in terms of the number of workers.
               </li>
               <li>
-                Awarding new projects in Neom and King Abdullah Financial
-                District, Riyadh.
+                Become a strategic partner of ARACO by providing excellent
+                service.
               </li>
+            </ul>
+            <h6 className="font-bold">QAC Success Story:</h6>
+
+            <ul className="list-disc space-y-2 pl-5">
+              Increased their production by 60% and opened a new production
+              facility in Al Khor.
             </ul>
           </div>
         </div>
@@ -185,7 +227,12 @@ const SuccessStories = () => {
           <Carousel className="mx-5" setApi={setApi}>
             <CarouselContent>
               {slides.map((slide) => (
-                <CarouselItem key={slide.id}>{slide.content}</CarouselItem>
+                <CarouselItem
+                  className="flex items-center justify-center"
+                  key={slide.id}
+                >
+                  {slide.content}
+                </CarouselItem>
               ))}
             </CarouselContent>
           </Carousel>
