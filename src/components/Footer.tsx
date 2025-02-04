@@ -5,9 +5,10 @@ import { FaEnvelope } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaWhatsapp } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { FaPinterestP } from "react-icons/fa";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -97,20 +98,48 @@ const Footer = () => {
 
       <div className="container mt-10">
         <div className="flex items-center justify-center gap-5 border-b border-t py-5 text-4xl">
-          <Link className="" href="#">
+          <Link
+            className=""
+            href="https://www.facebook.com/bridgethegap25/"
+            target="_blank"
+          >
             <FaFacebookF className="cursor-pointer" />
           </Link>
-          <Link className="" href="#">
+          <Link
+            className=""
+            href="https://x.com/BridgeTheGap25"
+            target="_blank"
+          >
             <FaXTwitter className="cursor-pointer" />
           </Link>
-          <Link className="" href="#">
-            <FaWhatsapp className="cursor-pointer" />
-          </Link>
-          <Link className="" href="#">
-            <FaLinkedinIn className="cursor-pointer" />
-          </Link>
-          <Link className="" href="#">
+          <Link
+            className=""
+            href="https://www.instagram.com/bridge_the_gap25/"
+            target="_blank"
+          >
             <FaInstagram className="cursor-pointer" />
+          </Link>
+          <Link
+            className=""
+            href="https://www.pinterest.com/dizibridgethegap/"
+            target="_blank"
+          >
+            <FaPinterestP className="cursor-pointer" />
+          </Link>
+          <Link
+            className=""
+            href="https://www.youtube.com/@BridgetheGap-25"
+            target="_blank"
+          >
+            <FaYoutube className="cursor-pointer" />
+          </Link>
+
+          <Link
+            className=""
+            href="https://www.tiktok.com/@bridgethegap25?lang=en"
+            target="_blank"
+          >
+            <FaTiktok className="cursor-pointer" />
           </Link>
         </div>
       </div>
