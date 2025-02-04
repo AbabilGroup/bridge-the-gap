@@ -61,7 +61,7 @@ const Footer = () => {
           <ul className="space-y-2 text-sm">
             <li>
               <Link
-                className="flex items-center gap-2 hover:underline"
+                className="inline-flex items-center justify-start gap-2 hover:underline"
                 href="tel:+8801234567890"
               >
                 <div>
@@ -72,19 +72,19 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                className="flex items-center gap-2 hover:underline"
-                href="mailto:info@bridgethegap.com"
+                className="inline-flex items-center justify-start gap-2 hover:underline"
+                href="mailto:info@bridgethegap.agency"
               >
                 <div>
                   <FaEnvelope />
                 </div>{" "}
-                info@bridgethegap.com
+                info@bridgethegap.agency
               </Link>
             </li>
             <li>
               <Link
-                className="flex items-center gap-2 hover:underline"
-                href="mailto:info@bridgethegap.com"
+                className="inline-flex items-center justify-start gap-2 hover:underline"
+                href="mailto:info@bridgethegap.agency"
               >
                 <div>
                   <FaMapMarkerAlt />

@@ -53,7 +53,7 @@ const ContactPage = () => {
                 <p className="text-sm">
                   <strong>Email</strong>
                 </p>
-                <p className="text-sm">info@bridgethegap.com</p>
+                <p className="text-sm">info@bridgethegap.agency</p>
               </div>
             </div>
             {/* card  */}
