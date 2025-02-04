@@ -2,7 +2,12 @@ import OilAndGasBanner from "@/components/pages/oil-gas/OilAndGasBanner";
 import OilGasPrivileges from "@/components/pages/oil-gas/OilGasPrivileges";
 import OilGasSolution from "@/components/pages/oil-gas/OilGasSolution";
 import { Button } from "@/components/ui/button";
+import { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Bridge The Gap | Oil and Gas",
+};
 
 const OilAndGasPage = () => {
   return (

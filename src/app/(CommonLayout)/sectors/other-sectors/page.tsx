@@ -1,7 +1,12 @@
 import OtherSectorsBanner from "@/components/pages/other-sectors/OtherSectorsBanner";
 import { Button } from "@/components/ui/button";
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Bridge The Gap | Other Sectors",
+};
 
 const OtherSectorsPage = () => {
   return (

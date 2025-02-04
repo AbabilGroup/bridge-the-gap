@@ -6,6 +6,11 @@ import LetsConnect from "@/components/pages/homepage/LetsConnect";
 import People from "@/components/pages/homepage/People";
 import Subsidiaries from "@/components/pages/homepage/Subsidiaries";
 import SuccessStories from "@/components/pages/homepage/SuccessStories";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Bridge The Gap",
+};
 
 const HomePage = () => {
   return (

@@ -1,7 +1,12 @@
 import ConstructionsBanner from "@/components/pages/constructions/ConstructionsBanner";
 import ConstructionSolutions from "@/components/pages/constructions/ConstructionSolutions";
 import { Button } from "@/components/ui/button";
+import { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Bridge The Gap | Construction",
+};
 
 const ConstructionsPage = () => {
   return (

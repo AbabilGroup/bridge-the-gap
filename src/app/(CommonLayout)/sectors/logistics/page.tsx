@@ -2,7 +2,12 @@ import LogisticsBanner from "@/components/pages/logistics/LogisticsBanner";
 import LogisticsPrivileges from "@/components/pages/logistics/LogisticsPrivileges";
 import LogisticsSolutions from "@/components/pages/logistics/LogisticsSolutions";
 import { Button } from "@/components/ui/button";
+import { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Bridge The Gap | Logistics",
+};
 
 const LogisticsPage = () => {
   return (

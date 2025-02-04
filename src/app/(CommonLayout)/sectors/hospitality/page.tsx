@@ -2,8 +2,13 @@ import HospitalityBanner from "@/components/pages/hospitality/HospitalityBanner"
 import HospitalityPrivileges from "@/components/pages/hospitality/HospitalityPrivileges";
 import HospitalitySolution from "@/components/pages/hospitality/HospitalitySolution";
 import { Button } from "@/components/ui/button";
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Bridge The Gap | Hospitality",
+};
 
 const HospitalityPage = () => {
   return (

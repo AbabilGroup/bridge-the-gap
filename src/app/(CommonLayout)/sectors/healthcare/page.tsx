@@ -2,7 +2,12 @@ import HealthcareBanner from "@/components/pages/healthcare/HealthcareBanner";
 import HealthcarePrivileges from "@/components/pages/healthcare/HealthcarePrivileges";
 import HealthcareSolution from "@/components/pages/healthcare/HealthcareSolution";
 import { Button } from "@/components/ui/button";
+import { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Bridge The Gap | Healthcare",
+};
 
 const HealthcarePage = () => {
   return (

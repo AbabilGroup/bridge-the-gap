@@ -14,6 +14,11 @@ import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { contactFormSectors, territories } from "@/constants";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Bridge The Gap | Contact Us",
+};
 
 const ContactPage = () => {
   return (
