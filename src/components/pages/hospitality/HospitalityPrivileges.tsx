@@ -1,7 +1,8 @@
 import { FaUsers } from "react-icons/fa6";
-import { IoDocumentTextOutline } from "react-icons/io5";
 import { FaRegCreditCard } from "react-icons/fa";
 import { HiOutlineClipboardDocumentList } from "react-icons/hi2";
+import { FaUsersViewfinder } from "react-icons/fa6";
+import { FaPersonWalkingArrowLoopLeft } from "react-icons/fa6";
 
 const HospitalityPrivileges = () => {
   return (
@@ -11,7 +12,7 @@ const HospitalityPrivileges = () => {
           Bridge The Gap privileges for hospitality companies
         </h2>
 
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
           {/* card  */}
           <div className="flex flex-col items-center justify-start gap-3 text-center">
             <FaRegCreditCard className="text-8xl text-primary-bridge" />
@@ -23,7 +24,7 @@ const HospitalityPrivileges = () => {
           </div>
           {/* card  */}
           <div className="flex flex-col items-center justify-start gap-3 text-center">
-            <FaRegCreditCard className="text-8xl text-primary-bridge" />
+            <FaUsersViewfinder className="text-8xl text-primary-bridge" />
 
             <p className="text-sm">
               Pivotal professions: Trained and qualified core professionals.
@@ -40,7 +41,7 @@ const HospitalityPrivileges = () => {
           </div>
           {/* card  */}
           <div className="flex flex-col items-center justify-start gap-3 text-center">
-            <IoDocumentTextOutline className="text-8xl text-primary-bridge" />
+            <FaUsers className="text-8xl text-primary-bridge" />
 
             <p className="text-sm">
               Seasonal workforce: Available year-round without lengthy
@@ -57,7 +58,7 @@ const HospitalityPrivileges = () => {
           </div>
           {/* card  */}
           <div className="flex flex-col items-center justify-start gap-3 text-center">
-            <FaUsers className="text-8xl text-primary-bridge" />
+            <FaPersonWalkingArrowLoopLeft className="text-8xl text-primary-bridge" />
 
             <p className="text-sm">
               Many available professions: From hotel restaurant management to
